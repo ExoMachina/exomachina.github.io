@@ -3,12 +3,33 @@
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #38728A;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h1, h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+}
+
+p, .btn-lg {
+	font-family: 'Lato', sans-serif;
+}
+
+img {
+	vertical-align: center;
+}
+
+section#products {
+	padding-top: 150px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -29,7 +50,7 @@ body {
   margin-left: auto;
 }
 
-/* Spacing */
+/* S pacing */
 
 .inner {
   padding: 30px;
@@ -59,7 +80,7 @@ a:hover {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
@@ -106,6 +127,12 @@ a:hover {
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
+}
+
+/* Sections */
+
+.prodcuts-section {
+	padding-top: 150px;
 }
 
 /*  Footer */
