@@ -5,7 +5,10 @@ body {
   height: 100%;
   background-color: #38728A;
 }
+
 body {
+  height: 100%;
+  background-color: #38728A;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5); 
@@ -19,7 +22,11 @@ h2 {
   font-size: 50px;
 }
 
-h1, h2, h3 {
+h4 {
+  font-size: 24px;
+}
+
+h1, h2, h3, h4 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 300;
 }
@@ -29,19 +36,29 @@ p, .btn-lg {
 }
 
 img {
-	vertical-align: center;
+  float: left;
+  width: 95px;
+
 }
 
 .info {
   padding-top: 2em;
 }
 
-section#products {
-	padding-top: 150px;
+.media-list{
+  padding-top: 2em;
 }
 
-#apps{
-  padding-top:2em;
+.media-body {
+  text-align: left;
+}
+
+.media-object {
+  padding-right: 20px;
+}
+
+div#ht-desc.media-body {
+  padding-left: 7px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -87,7 +104,7 @@ a:hover {
 }
 
 .masthead-brand a {
-    text-decoration: none;
+  text-decoration: none;
   }
 
 .masthead-nav > li {
@@ -124,6 +141,10 @@ a:hover {
   }
   .masthead-nav {
     float: right;
+  }
+
+  li {
+    padding-bottom: 20px;
   }
 }
 
