@@ -15,7 +15,11 @@ h1 {
 	font-size: 90px;
 }
 
-h1, h3 {
+h2 {
+  font-size: 50px;
+}
+
+h1, h2, h3 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 300;
 }
@@ -28,8 +32,16 @@ img {
 	vertical-align: center;
 }
 
+.info {
+  padding-top: 2em;
+}
+
 section#products {
 	padding-top: 150px;
+}
+
+#apps{
+  padding-top:2em;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -155,30 +167,40 @@ a:hover {
 form {
   margin: 0 auto;
   padding: 2em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
 }
 
 form div + div {
   margin-top: 1em;
 }
 
+textarea:focus, input:focus {
+    color: #000;
+}
+
+input, select, textarea{
+    color: #000;
+}
+
 .btn-sm {
   margin-top: 1em;
+  font-size: 1em;
 }
 
 input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
-
-    /* To give the same size to all text field */
     width: 400px;
+    height: 10em;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
     /* To harmonize the look & feel of text field border */
     border: 1px solid #999;
+}
+
+input#name, input#mail {
+  height: 2em;
 }
 
 input:focus, textarea:focus {
